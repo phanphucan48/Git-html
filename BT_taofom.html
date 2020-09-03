@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        height: 300px;
+        width: 600px;
+        text-align: center;
+        border: 5px solid;
+        border-color: greenyellow;
+      }
+      h1 {
+        background-color: orangered;
+        color: white;
+      }
+      span {
+        font-size: 20px;
+      }
+      .hovaten {
+        height: 30px;
+        width: 250px;
+        box-shadow: inset 5px 2px 3px 0px;
+      }
+      .email {
+        height: 30px;
+        width: 250px;
+        box-shadow: inset 5px 2px 3px 0px;
+      }
+      .input1 {
+        padding-bottom: 20px;
+      }
+      .input2 {
+        padding-bottom: 20px;
+      }
+      .luotweb {
+        padding-left: 97px;
+      }
+      .cooking {
+        padding-right: 115px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" class="form">
+      <h1>SỞ THÍCH CỦA BẠN</h1>
+      <div class="input1">
+        <span style="color: blue">Họ Và Tên</span>
+        <input type="text" class="hovaten" />
+      </div>
+      <div class="input2">
+        <span style="color: blue">Email</span>
+        <input type="text" class="email" />
+      </div>
+      <div>
+        <span style="color: blue">Sở thích:</span>
+
+        <label style="color: orangered"
+          ><input name="hobby" value="travel" type="checkbox" /> Thể Thao</label
+        >
+        <label style="color: orangered"
+          ><input name="hobby" value="sport" type="checkbox" /> Âm nhạc</label
+        >
+        <label style="color: orangered"
+          ><input name="hobby" value="cooking" type="checkbox" /> Đọc
+          sách</label
+        >
+      </div>
+      <div class="luotweb">
+        <label style="color: orangered"
+          ><input name="hobby" value="travel" type="checkbox" /> Lướt Web</label
+        >
+        <label style="color: orangered"
+          ><input name="hobby" value="sport" type="checkbox" /> Chơi Game</label
+        >
+        <label style="color: orangered"
+          ><input name="hobby" value="cooking" type="checkbox" /> Điện
+          Ảnh</label
+        >
+      </div>
+      <div class="cooking">
+        <label style="color: orangered"
+          ><input name="hobby" value="cooking" type="checkbox" /> Nấu ăn</label
+        >
+      </div>
+      <br />
+      <div>
+        <button type="submit">Gửi thông tin</button>
+        <button type="reset">Nhập lại</button>
+      </div>
+    </form>
+  </body>
+</html>
